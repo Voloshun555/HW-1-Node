@@ -1,5 +1,4 @@
 const listContacts = require("./contacts");
-// const yargs = require('yargs')
 const { Command } = require('commander');
 
 const invokeAction = async ({ action, id, name, email, phone }) => {
